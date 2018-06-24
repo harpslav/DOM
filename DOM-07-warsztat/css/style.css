@@ -1,0 +1,13 @@
+.decor-link {
+    background-color: cadetblue;
+    font-size: 2rem;
+}
+
+#main-header {
+    transition: all 1s;
+}
+
+.move #main-header {
+    background-color: chartreuse;
+    transform: translate(150px, 0) scale(1.4);
+}

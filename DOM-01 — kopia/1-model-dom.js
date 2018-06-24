@@ -12,4 +12,4 @@ console.log(document.body);
 console.log(document.head);
 
 //window
-console.log(window);b 
+console.log(window);

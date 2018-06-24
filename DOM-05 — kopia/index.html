@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Węzły Nodes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="section-first">
+        <header>
+            <p>Akapit w header</p>
+            <h1 id="main-header">Header <span>tytuł</span></h1>
+<!--            komentarz-->
+        </header>
+        
+        <div id="par-first">
+            <p>Tekst w tym akapcie</p>
+            <a href="#" class="link" onclick ="alert ('Jestem link i podpięto mi stary sposób rejestracji zdarzeń')">Link 1</a>
+            <div id="output"></div>
+            <a href="http://akademia108.pl" class="link">Link 2</a>
+        </div>
+        <div id="par-second">
+            <p>Sekcja 2 akapit</p>
+        </div>
+        <a href="http://akademia108.pl" class="link">LINK 1</a>
+        <a href="" class="link">LINK 2</a>
+        <a href="" class="link">LINK 3</a>
+        <a href="" class="link superlink" id="klik_akcja">LINK 4</a>
+        <a href="" class="link superlink">LINK 5</a>
+    </section>
+    
+<!--    stopPropagation of events -->
+    
+    <div id="event_div" style="padding: 15px; border: 1px solid #000;">
+    <button id="btn">Kliknij</button>
+    </div>
+    
+<!--ten skrypt musi być na samym końcu body, żeby dobrze wczytała się treść strony-->
+<script src="5-eventy.js"></script>
+</body>
+</html>
